@@ -1,7 +1,22 @@
 a
     color: white
     text-decoration: none
+    font-weight: bold
     
+
+.linkedin-color
+    background: -webkit-linear-gradient(top left, rgb(56, 195, 255), rgb(255, 255, 255))
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+
+.expertise-color
+    background: -webkit-linear-gradient(top left, rgb(168, 255, 125), rgb(122, 255, 235))
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+
+.introduction
+    line-height: 1.5
+
 $padding-value: 2%
 $standardRadius: 7px
 $projectDescriptionHeight: 70px
@@ -123,13 +138,14 @@ $projectDescriptionHeight: 70px
                 .project-list
                     list-style-type: none
                     word-wrap: break-word
+                    padding: 1%
                     .project-items
                         font-size: 17px
                         transition: .2s
                         // margin-top: 10px
-                        cursor: pointer
+                        // cursor: pointer
                         // margin-bottom: 10px
-                        margin-left: 10%
+                        margin: 10%
                         color: rgba(255,255,255,1)
                         .project-name
                             // For future use
@@ -161,7 +177,7 @@ $projectDescriptionHeight: 70px
                         // display: block
                         // font-size: 20px
                         // font-weight: 600
-                        letter-spacing: 1px
+                        // letter-spacing: 1px
                         // text-decoration: underline
 
                         // On hover changes project description properties

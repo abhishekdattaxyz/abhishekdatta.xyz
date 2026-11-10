@@ -10,23 +10,30 @@
                 {{aboutMe.welcomeMessage}}
             </div>
             <div class="body">
-                    {{aboutMe.introduction}} <br><br>
-                    I've worked with most of the popular web technologies. I love to <b class="code-color">&lt;</b><b class="code code-color">code</b><b class="code-color">&gt;</b> and I'm passionate about being a little <b class="creative">creative</b> with my websites.
+                <p class="introduction">
+                    I'm a <b class="creative">Data Engineer</b> who enjoys building things that work - and building them well. <br><br>
+                    My work spans <b class="expertise-color">Data Engineering</b>, <b class="expertise-color">Application Development</b>, <b class="expertise-color">System Design</b>, and <b class="expertise-color">Software Architecture</b>. I enjoy working across the stack, from designing scalable data pipelines to developing applications and solving complex engineering problems. <br><br>
+                    I like clean systems, thoughtful architecture, and code that does what it's supposed to.<br><br>
+                    <!-- I've worked with most of the popular web technologies. I love to <b class="code-color">&lt;</b><b class="code code-color">code</b><b class="code-color">&gt;</b> and I'm passionate about being a little <b class="creative">creative</b> with my websites. -->
+                </p>
             </div>
         </div>
         <div class="project-section">
             <div class="project-top"></div>
             <div class="project-header">
-                <h1>Projects</h1>
+                <h1>Coming Soon</h1>
             </div>
             <div class="project-content">
                 <div class="project-list">
-                    <a target="_blank" *ngFor="let item of projects; let i = index" [href]=projects[i].projectUrl>
+                    <p class="project-items introduction">
+                        More of my work, technical expertise, and certifications coming soon. <br><br>
+                        Meanwhile, let's connect on <a href="https://www.linkedin.com/in/abhishekdattaxyz/" target="_blank"><b class="linkedin-color">LinkedIn</b></a>.</p>
+                    <!-- <a target="_blank" *ngFor="let item of projects; let i = index" [href]=projects[i].projectUrl>
                         <div class="project-items">
                             <div class="project-name">{{projects[i].projectName}}</div>
                             <div class="about-project">{{projects[i].projectDescription}}</div>
                         </div>
-                    </a>
+                    </a> -->
                 </div> 
             </div>
             <div class="project-bottom"></div>
