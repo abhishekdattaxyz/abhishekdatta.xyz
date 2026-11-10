@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class ProfileComponent {
   aboutMe = {
     welcomeMessage: "Hey, I'm Abhishek",
-    introduction: ""
+    introduction: "I'm a web developer. I like creating minimalistic, responsive, pixel-perfect and robust web-applications."
   }
 
   // array of json (projects)
